@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>Excel2JSON demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./Excel2JSON.umd.js"></script>
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: Excel2JSON
+  }
+}).$mount('#app')
+</script>
