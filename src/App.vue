@@ -70,8 +70,10 @@ export default {
                     workbook.SheetNames.forEach((sheet) => {
                         Vue.set(this.OUTPUT, sheet, XLSX.utils.sheet_to_json(workbook.Sheets[sheet], {header: 1}));
                     });
+                    this.$emit("parsed", this.OUTPUT);
                   } catch (error) {
                       this.tips = error;
+                      this.$emit("error", error);
                   }
                   this.loadingFlag = false;
               };
