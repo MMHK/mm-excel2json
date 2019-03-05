@@ -3,22 +3,17 @@
 </template>
 <style>
 .excel2json {
-    color: #fff;
+    color: #ffffff;
     background-color: #337ab7;
-    border-color: #2e6da4;
     display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
+    padding: 0.5em 1em;
+    margin: 0;
     text-align: center;
     vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
     user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
+    border: 0 solid transparent;
     border-radius: 4px;
 }
 </style>
