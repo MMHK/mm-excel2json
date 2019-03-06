@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("vue"));
+		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["Excel2JSON"] = factory(require("vue"));
+		exports["Excel2JSON"] = factory();
 	else
-		root["Excel2JSON"] = factory(root["Vue"]);
-})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
+		root["Excel2JSON"] = factory();
+})((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -33133,13 +33133,6 @@ exports.f = __webpack_require__("9e1e") ? Object.defineProperty : function defin
 
 /***/ }),
 
-/***/ "8bbf":
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE__8bbf__;
-
-/***/ }),
-
 /***/ "8e60":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35992,58 +35985,53 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/excel2json.vue?vue&type=template&id=3077c1bd&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/excel2json.vue?vue&type=template&id=46613604&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('div',{staticClass:"excel2json-wrap"},[(!_vm.loadingFlag)?_c('vue-pluload',{attrs:{"options":_vm.UploadOpt,"text":"Select a xlsx file","class-name":_vm.className},on:{"added":_vm.handleAdded}}):_vm._e(),(_vm.loadingFlag)?_c('button',{class:_vm.className},[_vm._v("Loading")]):_vm._e(),(_vm.tips)?_c('span',{staticClass:"error"},[_vm._v(_vm._s(_vm.tips))]):_vm._e()],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/excel2json.vue?vue&type=template&id=3077c1bd&
+// CONCATENATED MODULE: ./src/components/excel2json.vue?vue&type=template&id=46613604&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-plupload.vue?vue&type=template&id=3a02962c&
-var vue_pluploadvue_type_template_id_3a02962c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('input',{ref:"btn",class:_vm.className,attrs:{"value":_vm.text,"type":"button"}})}
-var vue_pluploadvue_type_template_id_3a02962c_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-plupload.vue?vue&type=template&id=43643204&
+var vue_pluploadvue_type_template_id_43643204_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('input',{ref:"btn",class:_vm.className,attrs:{"value":_vm.text,"type":"button"}})}
+var vue_pluploadvue_type_template_id_43643204_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/vue-plupload.vue?vue&type=template&id=3a02962c&
+// CONCATENATED MODULE: ./src/components/vue-plupload.vue?vue&type=template&id=43643204&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js
 var object_assign = __webpack_require__("5176");
 var assign_default = /*#__PURE__*/__webpack_require__.n(object_assign);
 
-// EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
-var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
-var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
-
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-plupload.vue?vue&type=script&lang=js&
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var plupload = __webpack_require__("9dce");
 
 var uploaderDefaultOption = {
-  runtimes: 'html5,html4'
+  runtimes: "html5,html4"
 };
 /* harmony default export */ var vue_pluploadvue_type_script_lang_js_ = ({
   props: {
@@ -36065,7 +36053,7 @@ var uploaderDefaultOption = {
   methods: {
     renderUI: function renderUI() {
       var self = this;
-      external_commonjs_vue_commonjs2_vue_root_Vue_default.a.nextTick(function () {
+      this.$nextTick(function () {
         var opt = assign_default()(uploaderDefaultOption, self.options, {
           browse_button: self.$refs.btn,
           init: {
@@ -36210,8 +36198,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_vue_pluploadvue_type_script_lang_js_,
-  vue_pluploadvue_type_template_id_3a02962c_render,
-  vue_pluploadvue_type_template_id_3a02962c_staticRenderFns,
+  vue_pluploadvue_type_template_id_43643204_render,
+  vue_pluploadvue_type_template_id_43643204_staticRenderFns,
   false,
   null,
   null,
@@ -36249,7 +36237,6 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
 //
 //
 //
-
 
 
 /* harmony default export */ var excel2jsonvue_type_script_lang_js_ = ({
@@ -36291,7 +36278,7 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
               type: "binary"
             });
             workbook.SheetNames.forEach(function (sheet) {
-              external_commonjs_vue_commonjs2_vue_root_Vue_default.a.set(_this.OUTPUT, sheet, xlsx_default.a.utils.sheet_to_json(workbook.Sheets[sheet], {
+              _this.$set(_this.OUTPUT, sheet, xlsx_default.a.utils.sheet_to_json(workbook.Sheets[sheet], {
                 header: 1
               }));
             });

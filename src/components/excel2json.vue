@@ -23,7 +23,6 @@
 </style>
 <script>
 import VuePlupload from "./vue-plupload.vue";
-import Vue from "vue";
 import XLSX from "xlsx";
 export default {
   props: {
@@ -59,7 +58,7 @@ export default {
               type: "binary"
             });
             workbook.SheetNames.forEach(sheet => {
-              Vue.set(
+              this.$set(
                 this.OUTPUT,
                 sheet,
                 XLSX.utils.sheet_to_json(workbook.Sheets[sheet], { header: 1 })
