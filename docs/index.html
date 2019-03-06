@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Excel2JSON Demo Page</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="./Excel2JSON.umd.js"></script>
+</head>
+
+<body>
+  <h3>Excel2JSON Demo Page</h3>
+  <div id="app">
+    <demo @parsed="handleParsed"></demo>
+    <hr>
+    <pre>{{preObject}}</pre>
+  </div>
+  <script>
+    new Vue({
+      data: function () {
+        return {
+          out: {}
+        }
+      },
+      components: {
+        demo: Excel2JSON
+      },
+      computed: {
+        preObject: function () {
+          return JSON.stringify(this.out, 0, 4);
+        }
+      },
+      methods: {
+        handleParsed: function (args) {
+          this.out = args;
+        }
+      }
+    }).$mount('#app')
+  </script>
+</body>
+
+</html>

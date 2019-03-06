@@ -48,7 +48,7 @@ export default {
 
 
 <div id="app">
-  <excel2json></excel2json>
+  <excel2json @parsed="handleParsed"></excel2json>
 </div>
 
 <script>
