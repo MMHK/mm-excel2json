@@ -32782,17 +32782,6 @@ module.exports = function (IS_INCLUDES) {
 
 /***/ }),
 
-/***/ "5c0b":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e959");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "5ca1":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33153,6 +33142,21 @@ module.exports = !__webpack_require__("294c")(function () {
 
 /***/ }),
 
+/***/ "90a3":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("b7e8");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("74f9de12", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
 /***/ "9152":
 /***/ (function(module, exports) {
 
@@ -33399,33 +33403,6 @@ module.exports = !__webpack_require__("79e5")(function () {
 
 /***/ }),
 
-/***/ "a21f":
-/***/ (function(module, exports, __webpack_require__) {
-
-var core = __webpack_require__("584a");
-var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
-module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
-  return $JSON.stringify.apply($JSON, arguments);
-};
-
-
-/***/ }),
-
-/***/ "a33e":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("2350")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".excel2json-wrap{display:inline-block}.error{color:red}", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "a3c3":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33434,6 +33411,17 @@ var $export = __webpack_require__("63b6");
 
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__("9306") });
 
+
+/***/ }),
+
+/***/ "aad4":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_excel2json_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("90a3");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_excel2json_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_excel2json_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_excel2json_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -35328,6 +35316,21 @@ function isnan (val) {
 
 /***/ }),
 
+/***/ "b7e8":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("2350")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".excel2json-wrap{display:inline-block}.error{color:red}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "b8e3":
 /***/ (function(module, exports) {
 
@@ -35934,28 +35937,6 @@ module.exports = function (object, names) {
 
 /***/ }),
 
-/***/ "e959":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("a33e");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("6f19147e", content, true, {"sourceMap":false,"shadowMode":false});
-
-/***/ }),
-
-/***/ "f499":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("a21f");
-
-/***/ }),
-
 /***/ "f772":
 /***/ (function(module, exports) {
 
@@ -36002,19 +35983,15 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=0536180a&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('div',{staticClass:"excel2json-wrap"},[(!_vm.loadingFlag)?_c('vue-pluload',{attrs:{"options":_vm.UploadOpt,"text":"Select a xlsx file","class-name":_vm.className},on:{"added":_vm.handleAdded}}):_vm._e(),(_vm.loadingFlag)?_c('button',{class:_vm.className},[_vm._v("Loading")]):_vm._e(),(_vm.tips)?_c('span',{staticClass:"error"},[_vm._v(_vm._s(_vm.tips))]):_vm._e()],1),_c('pre',[_vm._v("    "+_vm._s(_vm.PreObj)+"\n  ")])])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/excel2json.vue?vue&type=template&id=3077c1bd&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('div',{staticClass:"excel2json-wrap"},[(!_vm.loadingFlag)?_c('vue-pluload',{attrs:{"options":_vm.UploadOpt,"text":"Select a xlsx file","class-name":_vm.className},on:{"added":_vm.handleAdded}}):_vm._e(),(_vm.loadingFlag)?_c('button',{class:_vm.className},[_vm._v("Loading")]):_vm._e(),(_vm.tips)?_c('span',{staticClass:"error"},[_vm._v(_vm._s(_vm.tips))]):_vm._e()],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=0536180a&
+// CONCATENATED MODULE: ./src/components/excel2json.vue?vue&type=template&id=3077c1bd&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js
-var stringify = __webpack_require__("f499");
-var stringify_default = /*#__PURE__*/__webpack_require__.n(stringify);
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/vue-plupload.vue?vue&type=template&id=3a02962c&
 var vue_pluploadvue_type_template_id_3a02962c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('input',{ref:"btn",class:_vm.className,attrs:{"value":_vm.text,"type":"button"}})}
@@ -36238,10 +36215,8 @@ var component = normalizeComponent(
 var xlsx = __webpack_require__("1146");
 var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/excel2json.vue?vue&type=script&lang=js&
 
-
-//
 //
 //
 //
@@ -36268,7 +36243,7 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
 
 
 
-/* harmony default export */ var Appvue_type_script_lang_js_ = ({
+/* harmony default export */ var excel2jsonvue_type_script_lang_js_ = ({
   props: {
     className: {
       type: String,
@@ -36288,11 +36263,6 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
         multi_selection: false
       }
     };
-  },
-  computed: {
-    PreObj: function PreObj(vm) {
-      return stringify_default()(vm.OUTPUT, 0, 4);
-    }
   },
   methods: {
     handleAdded: function handleAdded(uploader, files) {
@@ -36327,7 +36297,13 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
           _this.loadingFlag = false;
         };
 
-        reader.readAsBinaryString(file.getNative());
+        try {
+          reader.readAsBinaryString(file.getNative());
+        } catch (error) {
+          this.tips = error;
+          this.loadingFlag = false;
+          this.$emit("error", error);
+        }
       }
     }
   },
@@ -36335,12 +36311,12 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
     "vue-pluload": vue_plupload
   }
 });
-// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
- /* harmony default export */ var src_Appvue_type_script_lang_js_ = (Appvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/App.vue?vue&type=style&index=0&lang=scss&
-var Appvue_type_style_index_0_lang_scss_ = __webpack_require__("5c0b");
+// CONCATENATED MODULE: ./src/components/excel2json.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_excel2jsonvue_type_script_lang_js_ = (excel2jsonvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/excel2json.vue?vue&type=style&index=0&lang=scss&
+var excel2jsonvue_type_style_index_0_lang_scss_ = __webpack_require__("aad4");
 
-// CONCATENATED MODULE: ./src/App.vue
+// CONCATENATED MODULE: ./src/components/excel2json.vue
 
 
 
@@ -36349,8 +36325,8 @@ var Appvue_type_style_index_0_lang_scss_ = __webpack_require__("5c0b");
 
 /* normalize component */
 
-var App_component = normalizeComponent(
-  src_Appvue_type_script_lang_js_,
+var excel2json_component = normalizeComponent(
+  components_excel2jsonvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
@@ -36360,11 +36336,11 @@ var App_component = normalizeComponent(
   
 )
 
-/* harmony default export */ var App = (App_component.exports);
+/* harmony default export */ var excel2json = (excel2json_component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (App);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (excel2json);
 
 
 

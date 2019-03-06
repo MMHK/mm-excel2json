@@ -1,10 +1,10 @@
 {
-  "name": "code",
-  "version": "0.1.0",
+  "name": "mm-excel2json",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name Excel2JSON",
+    "build": "vue-cli-service build --target lib --name Excel2JSON src/components/excel2json.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
