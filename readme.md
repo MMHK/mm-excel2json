@@ -1,6 +1,6 @@
 ## Excel2JSON
 
-在浏览器端将 `Excel` 文件解释成 `JSON` 格式数据。
+在浏览器端将 `Excel` 文件解释成 `JSON` 格式数据。详细效果请看[Demo](https://mmhk.github.io/mm-excel2json/)。
 
 ### 项目依赖
 
