@@ -67,7 +67,7 @@ export default {
             });
             this.$emit("parsed", this.OUTPUT);
           } catch (error) {
-            this.tips = error;
+            // this.tips = error;
             this.$emit("error", error);
           }
           this.loadingFlag = false;
