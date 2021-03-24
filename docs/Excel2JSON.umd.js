@@ -35514,12 +35514,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da290c78-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/excel2json.vue?vue&type=template&id=74cd9fc6&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da290c78-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/excel2json.vue?vue&type=template&id=3f91509d&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('div',{staticClass:"excel2json-wrap"},[(!_vm.loadingFlag)?_c('vue-pluload',{attrs:{"options":_vm.UploadOpt,"text":"Select a xlsx file","class-name":_vm.className},on:{"added":_vm.handleAdded}}):_vm._e(),(_vm.loadingFlag)?_c('button',{class:_vm.className},[_vm._v("Loading")]):_vm._e(),(_vm.tips)?_c('span',{staticClass:"error"},[_vm._v(_vm._s(_vm.tips))]):_vm._e()],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/excel2json.vue?vue&type=template&id=74cd9fc6&
+// CONCATENATED MODULE: ./src/components/excel2json.vue?vue&type=template&id=3f91509d&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
@@ -35818,8 +35818,7 @@ var xlsx_default = /*#__PURE__*/__webpack_require__.n(xlsx);
 
             _this.$emit("parsed", _this.OUTPUT);
           } catch (error) {
-            _this.tips = error;
-
+            // this.tips = error;
             _this.$emit("error", error);
           }
 
