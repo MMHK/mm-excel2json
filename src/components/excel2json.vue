@@ -38,7 +38,7 @@ export default {
       loadingFlag: false,
       OUTPUT: {},
       UploadOpt: {
-        filters: [{ title: "Excel files", extensions: "xlsx,xls" }],
+        filters: [{ title: "Excel files", extensions: "xlsx,xls,csv" }],
         multi_selection: false
       }
     };
@@ -55,7 +55,8 @@ export default {
         reader.onload = e => {
           try {
             let workbook = XLSX.read(e.target.result, {
-              type: "binary"
+              type: "binary",
+              raw: true
             });
             workbook.SheetNames.forEach(sheet => {
               this.$set(
